@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Gustavo Muniz do Carmo
+  description: Role to set the same configuration file with different content in different environments
+  company: codeyourinfra.today
+  license: MIT
+
+  min_ansible_version: 1.6
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - configuration
+    - properties
+    - key-value
+
+dependencies: []
